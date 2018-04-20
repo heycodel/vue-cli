@@ -1,0 +1,247 @@
+/*confirm-box公用遮罩样式，参考提现申请页面*/
+
+.confirm-box .shade-back {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1990;
+	background-color: #000;
+	-moz-opacity: 0.5;
+	opacity: .70;
+	filter: alpha(opacity=70);
+}
+
+.confirm-box .shade-div {
+	position: absolute;
+	width: 100%;
+	top: 35%;
+	z-index: 2091;
+}
+
+.confirm-box .shade-content {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 10px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	/*padding-top: 6px;
+	padding-bottom: 10px;*/
+}
+
+.confirm-box .shade-content .title {
+	line-height: 40px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333333;
+	margin: 0 auto;
+	word-spacing: 2px;
+}
+
+.confirm-box .shade-content .content {
+    display: block;
+    padding: 14px;
+    line-height: 26px;
+    color: #333333;
+    word-spacing: 3px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.confirm-box .shade-content .bottom {
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+}
+
+.confirm-box .shade-content .button-div {
+	display: block;
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+    border-left: 1px solid #f5f5f5;
+}
+
+.confirm-box .shade-content .bottom .button {
+	display: block;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+}
+
+.confirm-box .shade-content .bottom .buttonleft {
+	font-size: 16px;
+    padding: 13px 0;
+}
+
+.confirm-box .shade-content .bottom .buttonright {
+	color: #f6d85f;
+    font-size: 16px;
+    padding: 13px 0;
+}
+
+
+/*alert-box样式*/
+
+.alert-box .shade-back {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+	background-color: #000;
+	-moz-opacity: 0.2;
+	opacity: 0.5;
+	filter: alpha(opacity=70);
+	display: block;
+}
+
+.alert-box .shade-div {
+	position: fixed;
+	width: 100%;
+	top: 35%;
+	z-index: 1191;
+	overflow: hidden;
+}
+
+.alert-box .shade-content {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+	overflow: hidden;
+}
+
+.alert-box .shade-content .title {
+	line-height: 40px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333333;
+	margin: 0 auto;
+	word-spacing: 2px;
+}
+
+.alert-box .shade-content .content {
+	display: block;
+    margin: 0 auto;
+    line-height: 26px;
+    padding: 10px 0;
+    color: #333333;
+    word-spacing: 3px;
+    text-align: left;
+    font-size: 14px;
+	
+	word-break:break-all;
+}
+
+.alert-box .shade-content .button-div {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.alert-box .shade-content .button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 0;
+    box-sizing: border-box;
+    font-size: 14px;
+	color:#000;
+	width: 80%;
+	background:#f6d85f;
+	border-radius: 5px;
+}
+
+
+/*alert-img-box样式*/
+
+.alert-img-box .shade-back {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 90;
+	background-color: #000;
+	-moz-opacity: 0.7;
+	opacity: .70;
+	filter: alpha(opacity=70);
+}
+
+.alert-img-box .shade-div {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 91;
+	display: table;
+}
+
+.alert-img-box .shade-content {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+
+.alert-img-box .shade-content .shade-innercontent {
+	width: 30%;
+	margin: 0 auto;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+.alert-img-box .shade-content .shade-innercontent .title {
+	line-height: 40px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333333;
+	margin: 0 auto;
+	word-spacing: 2px;
+}
+
+.alert-img-box .shade-content .shade-innercontent .content {
+	box-sizing: border-box;
+	padding: 0 15px;
+	padding-bottom: 5px;
+}
+
+.alert-img-box .shade-content .shade-innercontent .button-div {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.alert-img-box .shade-content .shade-innercontent .button {
+	display: block;
+	width: 87%;
+	;
+	margin: 0 auto;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #744c22;
+	border: 1px solid #f6d85f;
+	background-color: #f6d85f;
+}
